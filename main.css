@@ -18,9 +18,11 @@ h1, h2, h3 {
 aside {
 	float: left;
 	width: 20%;
-	margin: 0em 1em;
-	box-sizing: border-box;
+	padding: 0em 1em;
+}
 
+main, aside, nav, #main-container{
+	box-sizing: border-box;
 }
 
 footer {
@@ -28,7 +30,7 @@ footer {
 }
 
 header {
-
+	margin: 1em;
 }
 
 img {
@@ -37,7 +39,7 @@ img {
 
 main {
 	float: left;
-	width: 50%;
+	width: 60%;
 }
 
 nav {
@@ -50,5 +52,6 @@ nav {
 }
 
 #main-container {
-
+	max-width: 100%;
+	margin: 1em;
 }
